@@ -10,7 +10,7 @@ A Chrome Extension that enhances the tooltips on [Pokemon Showdown](http://play.
 ### Example
 ![Screenshot](/screenshots/screenshot-PS.png)
 
-![Screenshot](/screenshots/screenshot-PSET.png)
+![Screenshot](/screenshots/screenshot-PS-boosts.png)
 
 ### Installation
 - [Download](https://github.com/Lygre/Pokemon-Showdown-Enhanced-Tooltips/archive/master.zip) the latest version of Pokemon Showdown Enhanced Tooltips
