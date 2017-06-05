@@ -513,7 +513,14 @@ ShowdownEnhancedTooltip.showPokemonTooltip = function(pokemon, pokemonData, isAc
 			' <small>SpD:</small> '+template.baseStats.spd+
 			' <small>Spe:</small> '+template.baseStats.spe+'</p>';
 		}
-	}
+	}else{
+			text += '<p><small>HP:</small> '+template.baseStats.hp+
+			' <small>Atk:</small> '+template.baseStats.atk+
+			' <small>Def:</small> '+template.baseStats.def+
+			' <small>SpA:</small> '+template.baseStats.spa+
+			' <small>SpD:</small> '+template.baseStats.spd+
+			' <small>Spe:</small> '+template.baseStats.spe+'</p>';
+		}
 	// ================================== CUSTOM ====================================
 
 	
@@ -565,6 +572,7 @@ ShowdownEnhancedTooltip.showPokemonTooltip = function(pokemon, pokemonData, isAc
 			text += '&nbsp;SpA /&nbsp;' + pokemonData.stats['spd'] + '&nbsp;SpD /&nbsp;';
 		}
 		text += pokemonData.stats['spe'] + '&nbsp;Spe</p>';
+
 		if (isActive) {
 			if (this.battle.gen > 1) {
 				var modifiedStats = this.calculateModifiedStats(pokemon, pokemonData);
