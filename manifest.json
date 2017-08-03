@@ -17,7 +17,8 @@
 	"permissions": [
 		"*://play.pokemonshowdown.com/*",
 		"*://*.psim.us/*",
-		"*://replay.pokemonshowdown.com/*"
+		"*://replay.pokemonshowdown.com/*",
+		"https://raw.githubusercontent.com/Zarel/Pokemon-Showdown/master/data/"
 	],
 	"web_accessible_resources": [
 		"/js/tooltip.js"
